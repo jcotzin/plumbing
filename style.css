@@ -1,0 +1,59 @@
+.html, body, ul{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+  background-color: #ffc600;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  min-height: 130px;
+}
+
+.header-side {
+  background-color: #252527;
+  width: 300px;
+  min-height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+nav.menu {
+  text-align: center;
+}
+
+nav.menu ul {
+  margin-top: 50%;
+  border-top: 1px solid rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+nav.menu ul li {
+  padding: 21px;
+}
+
+nav.menu ul li a {
+  padding: 20px 40px 20px 40px;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid rgba(255,255,255,0.04);
+  width: 100%;
+  text-align: center;
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+
+}
+
+.hero img{
+  margin-left: 14%;
+  width: 75%;
+}
